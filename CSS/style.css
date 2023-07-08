@@ -1,0 +1,61 @@
+.title-1{
+  color: red;
+  background-color: aqua;
+  padding: 15px;
+}
+
+#image-1{
+  padding: 20px; 
+  background-color: blue;
+  border-radius: 20px;
+}
+/* Selectors */
+
+/* 1. Type slector */
+h4{
+  color: blue;
+  background-color: aquamarine;
+}
+
+/* 2. ID selector */
+#img-22{
+    border-radius: 20px; 
+    border: 9px solid red;
+    width: 40%;
+}
+
+/* 3. Class selector */
+.Description{
+  color: green;
+  background-color: burlywood;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* 4. Universal selector */
+* {
+  /* background-color: rgb(179, 125, 229); */
+  margin: 0;
+}
+/* Universal selector can be used as a internal style */
+
+/* 5. Child selector */
+/* body > p { */
+  /* background-color: chocolate; */
+  /* margin: 20px; */
+  /* font-size: 20px;padding: 15px; */
+/* } */
+
+#name{
+  background-color: blue;
+}
+
+.my-name{
+  background-color: orange !important;
+}
+
+.box-model{
+  padding: 30px;
+  border: 20px solid yellow;
+  margin: 40px;
+}

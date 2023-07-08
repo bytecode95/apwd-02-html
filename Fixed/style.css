@@ -1,0 +1,17 @@
+.Fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* left: 500px; */
+    width: 200px;
+    border: 3px solid black;
+}
+
+body{
+    height: 2000px;
+}
+
+.Fixed-2{
+    position: fixed;
+    background-color: aqua;
+}
