@@ -15,7 +15,6 @@ function Check(){
 }
 document.write(name)
 
-
 //Let can be redeclare only in another scope but value can be assigned in scope
 
 let x = 10;
@@ -29,3 +28,17 @@ let x = 10;
 }
 
 console.log(x)
+
+//Var  - var can be declare and assigned values in any scope in any times
+var y = 10;
+console.log(y)
+    var y = 12;
+        y = 23;
+
+/*{
+    console.log(y)
+    var y = 30;
+        y = 25
+}*/
+
+console.log(y)
