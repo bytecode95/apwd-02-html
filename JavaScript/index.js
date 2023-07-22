@@ -14,3 +14,18 @@ function Check(){
     document.write(name)
 }
 document.write(name)
+
+
+//Let can be redeclare only in another scope but value can be assigned in scope
+
+let x = 10;
+
+//let x = 12;
+
+{
+    //let x = 12;
+    x = 12;
+    console.log(x)
+}
+
+console.log(x)
