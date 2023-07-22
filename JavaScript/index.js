@@ -30,7 +30,7 @@ let x = 10;
 console.log(x)
 console.log(".............................................")
 
-//Var  - var can be declare and assigned values in any scope in any times
+//Var  - var can be declared and assigned values in any scope in any times
 var y = 10;
 console.log(y)
     var y = 12;
@@ -45,13 +45,13 @@ console.log(y)
 console.log(y)
 console.log(".............................................")
 
-//const - cant value assigning, declare and when creting const varible can be used in that scope only
+//const - cant value assigning, declare and when creating const variable can be used in that scope only
 
 const d = 10;
 //const d = 12; ===> error
 
 //d = 12; ==> error
-// console.log(d)
+console.log(d)
 
 {
     console.log(d)
@@ -61,3 +61,5 @@ const d = 10;
 }
 
 //console.log(g)
+
+console.log(".............................................")
