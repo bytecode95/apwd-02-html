@@ -1,4 +1,4 @@
-console.log("run javascript")
+console.log("run javascript2")
 var a = 12;
 var b = 10;
 var c = 12;
@@ -33,21 +33,21 @@ result = a > b;
 document.write(result);
 document.write(line, line);
 
-// <Lessthan
+// < Less than
 document.write("Lessthan" + line);
 document.write("a < b = ");
 result = a < b;
 document.write(result);
 document.write(line, line);
 
-// >GreaterthanorEqual
+// > Greater than orEqual
 document.write("GreaterthanorEqual" + line);
 document.write("a >= b = ");
 result = a >= b;
 document.write(result);
 document.write(line, line);
 
-// >LessthanorEqual
+// > Less than or Equal
 document.write("LessthanorEqual" + line);
 document.write("a <= b = ");
 result = a <= b;
