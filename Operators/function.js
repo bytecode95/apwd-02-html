@@ -109,6 +109,7 @@ console.log('........................')
 
 
 
+
 console.log('........................')
 //Switch
 
@@ -124,4 +125,27 @@ switch(marks){
         break
     default:
         console.log("Fail");
+}
+
+getDay(4)
+function getDay(val){
+    switch(val){
+        case 1:
+            console.log("Sunday");
+            break;
+        case 2:
+            console.log("Monday");
+            break;
+        case 3:
+            console.log("Tuesday");
+            break;
+        case 4:
+            console.log("Wednesday");
+            break;
+        case 5:
+            console.log("Thursday");
+            break;
+        default:
+            console.log("None");
+    }
 }
