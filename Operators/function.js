@@ -66,3 +66,62 @@ function maths2023(one, two){
     return total;
 }
 
+
+
+// Flow Controllers
+// IF
+
+const marks = 40;
+if (marks > 30){
+    console.log("Exam Passed")
+}
+
+//IF else
+
+if ( marks > 50){
+    console.log("good average")
+}else{
+    console.log("below average")
+}
+console.log('........................')
+
+// else if can be combined more conditions
+
+if (marks>=75){
+    console.log("Grade: A")
+}else if(marks>=65) {
+    console.log("Grade B")
+}else if(marks>=55){
+    console.log("Grade: C")
+}else{
+    console.log("fail")
+}
+
+console.log('........................')
+
+//nested if there are IF conditions in other IF condition
+
+
+
+
+
+
+
+
+
+console.log('........................')
+//Switch
+
+switch(marks){
+    case 75:
+        console.log("Grade: A");
+        break;
+    case 65:
+        console.log("Grade: B");
+        break
+    case 55:
+        console.log("Grade: C");
+        break
+    default:
+        console.log("Fail");
+}
