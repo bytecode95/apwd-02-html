@@ -109,7 +109,6 @@ console.log('........................')
 
 
 
-
 console.log('........................')
 //Switch
 
@@ -149,3 +148,11 @@ function getDay(val){
             console.log("None");
     }
 }
+
+// For loop can be used to print num list and read table column
+let id = 0
+for(let i = 0; i < 10; i++ ){
+    id += i;
+}
+console.log(id)
+
