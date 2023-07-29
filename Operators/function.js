@@ -180,3 +180,10 @@ const acpt = "ACPT";
 for(let w of acpt){
     console.log(w);
 }
+console.log("............While loop...............")
+//While loop
+let n = 0;
+while (n < 15){
+    console.log(n);
+    n++;
+}
