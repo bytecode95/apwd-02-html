@@ -169,3 +169,14 @@ const car = ["BMW", "Volvo", "Ford"];
 for (let a in car){
     console.log(car[a]);
 }
+
+// For of
+console.log("............For of.............")
+for(let w of car){
+    console.log(w);
+}
+
+const acpt = "ACPT";
+for(let w of acpt){
+    console.log(w);
+}
