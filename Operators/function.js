@@ -181,9 +181,21 @@ for(let w of acpt){
     console.log(w);
 }
 console.log("............While loop...............")
+
+
 //While loop
 let n = 0;
-while (n < 15){
+while (n < 5){
     console.log(n);
     n++;
 }
+
+console.log("............Do While loop...............")
+// Do while
+
+let o = 0;
+do{
+    o++;
+    console.log(o)
+}
+while(o < 5)
